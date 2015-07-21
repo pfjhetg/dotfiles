@@ -65,6 +65,7 @@ else
     set background=dark
 endif  
 colorscheme solarized
+ set t_Co=256
 " 快速注释
 Bundle 'scrooloose/nerdcommenter'
 " Bundle 'tpope/vim-commentary'
@@ -77,7 +78,7 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/
 Bundle 'scrooloose/syntastic'
 
 "..................................
-"  vim-scripts repos
+" vim-scripts repos
 " Bundle 'YankRing.vim'
 " Bundle 'vcscommand.vim'
 " Bundle 'ShowPairs'
