@@ -7,6 +7,9 @@ set tabstop=4
 set nowrap 
 " 高亮显示结果
 set hlsearch
+" 高亮显示当前行/列
+set cursorline
+set cursorcolumn
 "set novisualbell
 " 在输入要搜索的文字时，vim会实时匹配
 set incsearch 
