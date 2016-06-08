@@ -39,6 +39,7 @@ Bundle 'gmarik/vundle'
 " Airline: 小巧美观的状态栏。
 Bundle 'bling/vim-airline'
 " 设置airline主题
+Bundle 'vim-airline/vim-airline-themes'
 let g:airline_theme="solarized"
 " airline状态栏不实现
 set laststatus=2
