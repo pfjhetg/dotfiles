@@ -52,6 +52,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " 设置airline主题
+Bundle 'vim-airline/vim-airline-themes'
 let g:airline_theme="solarized"
 " airline状态栏不实现
 set laststatus=2
