@@ -9,8 +9,8 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="powerline"
 export TERM=xterm-256color
 export CLICOLOR=1
-alias vi='mvim -v'
-alias vim='mvim -v'
+#alias vi='mvim -v'
+#alias vim='mvim -v'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

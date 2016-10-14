@@ -24,23 +24,12 @@ set autoindent shiftwidth=4
 " 比autoindent稍智能的自动缩进
 set smartindent shiftwidth=4
 
-set encoding=utf-8
-
-" python
- set tabstop=4
- set softtabstop=4
- set shiftwidth=4
-" set textwidth=79
- set expandtab
- set autoindent
- set fileformat=unix
-
 
 " Vundle插件设置
 set nocompatible                " be iMproved
 filetype off                    " required!
 set rtp+=~/.vim/bundle/vundle.vim/
-call vundle#begin()
+call vundle#rc()
 
 " let Vundle manage Vundle
 Plugin 'VundleVim/Vundle.vim'
@@ -64,9 +53,6 @@ endif
 
 Plugin 'kien/ctrlp.vim'
 
-" 符号补全
-Plugin 'Raimondi/delimitMate'
-
 "
 Plugin 'scrooloose/nerdtree'
 " 设置打开关闭快捷键"F2"
@@ -88,8 +74,8 @@ Plugin 'scrooloose/nerdcommenter'
 " Plugin 'tpope/vim-commentary'
 
 " 手动安装了，这里屏蔽掉
-" Plugin 'Valloric/YouCompleteMe'
-" let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py '
+" Bundle 'Valloric/YouCompleteMe'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py '
 
 "
 Plugin 'scrooloose/syntastic'
@@ -107,5 +93,4 @@ Plugin 'scrooloose/syntastic'
 " non github repos
 " Bundle 'git://git.wincent.com/command-t.git'
 "......................................
-call vundle#end()            " required
-filetype plugin indent on    " required
+filetype plugin indent on
