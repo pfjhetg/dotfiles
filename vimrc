@@ -48,11 +48,9 @@ Plugin 'VundleVim/Vundle.vim'
 "my Bundle here:
 " original repos on github
 " Airline: 小巧美观的状态栏。
-" Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " 设置airline主题
-Bundle 'vim-airline/vim-airline-themes'
 let g:airline_theme="solarized"
 " airline状态栏不实现
 set laststatus=2
