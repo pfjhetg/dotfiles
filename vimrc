@@ -89,6 +89,7 @@ Plugin 'scrooloose/nerdcommenter'
 " 手动安装了，这里屏蔽掉
 " Plugin 'Valloric/YouCompleteMe'
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_python_binary_path = 'python'
 
 "
 Plugin 'scrooloose/syntastic'
