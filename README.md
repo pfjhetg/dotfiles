@@ -6,4 +6,4 @@ rm -rf .zshrc
 
 ln -s dotfiles/zshrc .zshrc
 
-git@github.com:jeremyFreeAgent/oh-my-zsh-powerline-theme.git
+mo-my-zsh主题： git@github.com:jeremyFreeAgent/oh-my-zsh-powerline-theme.git
