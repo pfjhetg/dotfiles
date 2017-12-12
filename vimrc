@@ -72,12 +72,9 @@ Plugin 'scrooloose/nerdtree'
 nnoremap <silent> <F2> :NERDTreeToggle<CR>
 
 " Solarized: 非常流行的配色。
-<<<<<<< HEAD
 " 终端cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/, 执行这个命令来引入颜色
-" Plugin 'altercation/vim-colors-solarized'
-=======
 Plugin 'altercation/vim-colors-solarized'
->>>>>>> a4d2fba2aff7a3c574039e262bbeb2245606822e
+
 
 syntax enable  
 if has('gui_running')  
