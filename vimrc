@@ -72,7 +72,8 @@ Plugin 'scrooloose/nerdtree'
 nnoremap <silent> <F2> :NERDTreeToggle<CR>
 
 " Solarized: 非常流行的配色。
-" 终端cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/, 执行这个命令来引入颜色
+" 终端cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/, 执行这个命令来引入颜色,
+" 或者 github上 dotfiles 文件里面的 solarized 网址中对应 vim 的主题放在这个目录下
 Plugin 'altercation/vim-colors-solarized'
 
 
